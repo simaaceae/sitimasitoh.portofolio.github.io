@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siti Masitoh | Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/Logo Sima Design.png" class="logo" alt="Sima Design Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graphic Designer | Photographer</p>
+                <h1>Hi, I'm <span><br>SIti Masitoh</br></span></h1>
+                <p class="sub-intro">Kreatif, Adaptif, dan Siap Berkontribusi.</p>
+                <a href="#about" class="btn-outline">Explore More</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <h1 class="sub-title">About Me</h1>
+            <p class="description">
+                Halo! Saya Siti Masitoh, mahasiswa Teknologi Informasi UIN Walisongo Semarang yang memiliki minat besar di bidang desain visual. 
+                Saya memiliki minat yang besar dalam desain grafis dan fotografi dengan pengalaman berorganisasi 
+                untuk mengasah kemampuan serta menciptakan solusi kreatif yang efektif. Fokus saya adalah memberikan dampak positif bagi 
+                lingkungan organisasi melalui karya visual dan kerja sama tim yang solid.
+            </p>
+
+            <div class="tab-title">
+                <p class="tab-links active-link" onclick="opentab('skills')">Keterampilan</p>
+                <p class="tab-links" onclick="opentab('organisasi')">Organisasi</p>
+                <p class="tab-links" onclick="opentab('kepanitiaan')">Kepanitiaan & Event</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+                <div class="tools-grid">
+                    <div class="tool-item"><img src="image/photoshop.png" alt="PS"><span>Photoshop</span></div>
+                    <div class="tool-item"><img src="image/illustrator.png" alt="AI"><span>Illustrator</span></div>
+                    <div class="tool-item"><img src="image/coreldraw.png" alt="Corel"><span>CorelDraw</span></div>
+                    <div class="tool-item"><img src="image/canva.png" alt="Canva"><span>Canva</span></div>
+                </div>
+            </div>
+
+            <div class="tab-contents" id="organisasi">
+                <ul class="exp-list">
+                    <li><span>2023 / 2024</span><strong>Crew Redaksi Jurnalistik PIJAR EMAS</strong><br>as Koor. Reporter</li>
+                    <li><span>2023 / 2024</span><strong>Pimpinan Komisariat IPNU IPPNU</strong><br>as Dept. Kaderisasi dan Keorganisasian</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="kepanitiaan">
+                <ul class="exp-list">
+                    <li><span>2025 - 2026</span><strong>Dies Natalis ISMARO ke-IX</strong><br>as Sie. Dekdok</li>
+                    <li><span>2025</span><strong>Pelantikan Pengurus ISMARO</strong><br>as Sie. Dekdok</li>
+                    <li><span>2025</span><strong>Ronggolawe Futsal Cup</strong><br>as Sie. Dekdok</li>
+                    <li><span>2025</span><strong>Latihan Dasar Kepemimpinan FIKRO MA Islamiyah Senori</strong><br>as Sekretaris</li>
+                    <li><span>2024</span><strong>MA Islamiyah Senori Bersholawat & Sertijab FIKRO</strong><br>as Sie. Dekdok</li>
+                    <li><span>2024</span><strong>Workshop Digital Hari Pers Nasional</strong><br>as Sie. Acara</li>
+
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Selected Works</h1>
+        
+        <h3 class="category-title">Graphic Design Projects</h3>
+        <div class="portfolio-list">
+            <div class="work">
+                <img src="image/desain1.jpg" alt="Design 1">
+                <div class="layer">
+                    <h3>Publikasi Dies Natalis ISMARO</h3>
+                    <p>Calling Out Media Partner.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/desain2.jpg" alt="Design 2">
+                <div class="layer">
+                    <h3>Publikasi Dies Natalis ISMARO</h3>
+                    <p>Coming Soon Dies Natalis ISMARO</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/desain3.jpeg" alt="Design 3">
+                <div class="layer">
+                    <h3>Publikasi Dies Natalis ISMARO</h3>
+                    <p>Pamflet Lomba Dies Natalis. </p>
+                </div>
+            </div>
+            <div class="work"><img src="image/desain4.jpg" alt="Design 1"><div class="layer"><h3>Publikasi Sosmed</h3><p>Selamat Hari Pahlawan</p></div></div>
+            <div class="work"><img src="image/desain5.jpg" alt="Design 5"><div class="layer"><h3>Publikasi Sosmed</h3><p>Happy New Year!</p></div></div>
+            <div class="work"><img src="image/desain6.jpg" alt="Design 6"><div class="layer"><h3>Publikasi Sosmed</h3><p>Open Recruitment New Member</p></div></div>
+            <div class="work"><img src="image/desain7.jpg" alt="Design 7"><div class="layer"><h3>Creative Design</h3><p>Victory for justice</p></div></div>
+            <div class="work"><img src="image/desain8.jpg" alt="Design 8"><div class="layer"><h3>Creative Design</h3><p>Mystery of Perception</p></div></div>
+            <div class="work"><img src="image/desain9.jpg" alt="Design 9"><div class="layer"><h3>Creative Design</h3><p>MASTERING THE CANVAS WITHIN: THE ART OF STOIC DISCIPLINE</p></div></div>
+        </div>
+    </div>
+</div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> stmsitoh2@email.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 088211866249</p>
+                    <div class="social-icons">
+                        <a href="https://id.linkedin.com/in/siti-masitoh-03493737a"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/simaaceae/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="image/Curiculum Vitae_Siti Masitoh.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Nama Lengkap" required>
+                        <input type="email" name="Email" placeholder="Email Anda" required>
+                        <textarea name="Message" rows="6" placeholder="Pesan Anda"></textarea>
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2025 Siti Masitoh Professional Portfolio.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
